@@ -1,0 +1,266 @@
+/* --------------  basics  ------------------ */
+
+.z-index {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+body p {
+    margin: 0 0 10px;
+}
+
+.ATSC-text {
+    width: 60%;
+}
+
+.ATSC-text p {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 70px;
+}
+
+.ATSC-text:hover .line-mf::before {
+    width: 57px;
+}
+
+.line-mf::before {
+    content: "";
+    position: absolute;
+    margin-bottom: -7px;
+    width: 40px;
+    height: 1.5px;
+    bottom: 0px;
+    background-color: #1f2528;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all .5s;
+}
+
+.bg-gray {
+    background-color: #fafafa;
+}
+
+.btn {
+    background-color: #f25454;
+    border-radius: 3px;
+    font-weight: 700;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgba(251, 137, 143, 1);
+}
+
+.right {
+    right: 0;
+}
+
+/* --------------  Home  ------------------ */
+
+#home .slide_1 {
+    background-image: url(../images/slideshow-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#home .slide_2 {
+    background-image: url(../images/slideshow-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#home .slide_3 {
+    background-image: url(../images/slideshow-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#home .carousel-caption {
+    bottom: 30%;
+}
+
+#home h1 {
+    font-weight: 900;
+    font-size: 400%;
+}
+
+#home .nav-link {
+    color: white !important;
+}
+
+#home .settings {
+    background-color: #1f2528;
+    top: 21%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#home .arrow {
+    background-color: #1f2528;
+    top: 50%;
+    width: 60px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    font-size: 30px;
+}
+
+/* --------------  About  ------------------ */
+
+.ATSC-text h2 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+#about .skill-item {
+    margin-bottom: 5px !important;
+}
+
+#about .progress {
+    height: 4px;
+}
+
+#about .progress-bar {
+    background-color: #f25454;
+    border-radius: 0 2px 2px 0;
+}
+
+/* -------------- Team  ------------------ */
+
+#team .Team_member {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#team p {
+    color: #666
+}
+
+#team .profile {
+    position: relative;
+    overflow: hidden;
+}
+
+#team .team-card:hover img {
+    transform: scale(1.1);
+}
+
+#team .profile img {
+    transition: all 0.3s;
+}
+
+#team .social {
+    position: absolute;
+    top: 12;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(242, 84, 84, 0.85);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+#team .team-card:hover .social {
+    opacity: 1;
+    top: 0;
+}
+
+#team .team-card:hover .Team_member {
+    color: rgba(242, 84, 84, 0.85);
+}
+
+/* -------------- Services  ------------------ */
+
+#service .service_text {
+    width: 300px;
+    transition: all .5s;
+}
+
+#service .service_text h3 {
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+#service .service_icon {
+    font-size: 26px;
+    color: #f25454;
+}
+
+#service .service_item:hover .service_text h3 {
+    color: #f25454;
+}
+
+/* -------------- Reviews  ------------------ */
+
+.carousel_Reviews .carousel-indicators button {
+    width: 14vh !important;
+    height: 14vh !important;
+    border-radius: 50%;
+}
+
+/* -------------- contact  ------------------ */
+
+#contact h3 {
+    font-weight: 800;
+}
+
+#contact .toContactus {
+    padding: 25px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#contact .contactIcon {
+    font-size: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: #f25454;
+}
+
+#contact .contactText h4 {
+    transition: all 0.3s;
+}
+
+#contact .toContactus:hover .contactText h4 {
+    color: #f25454;
+}
+
+#contact .form-group {
+    width: 98.24561403508772%;
+    margin-bottom: 20px
+}
+
+#contact textarea {
+    height: 110px;
+    width: 100%;
+}
+
+#contact input, textarea {
+    padding: 14px 18px;
+    color: #a6a6a6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+}
+
+/* ------------ Copyright --------------- */
+
+.c_wihte a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.bg-black {
+    background-color: #2d3235d0;
+}
